@@ -10,7 +10,7 @@ The first step qhen we download the zip and try to crack the it with fcrackzip u
 ![](pics/pic1.png?raw=true)
 
 But we failed!
-So we did the same for only 2 numbers , and again... we failed, so one more and last time we do the same but only adding 1 number(**l$[0-9]**) and BINGO!!, after a few seconds we got the password.
+So we did the same for only 2 numbers , and again... we failed, so one more and last time we do the same but only adding 1 number ( **l$[0-9]** ) and BINGO!!, after a few seconds we got the password.
 
 ![](pics/pic2.png?raw=true)
 
