@@ -4,7 +4,7 @@
 
 Challenge description:
 
-In this challenge we only have a zip and a txt file that contains : ^ 7 y RU[A-Z]KKx2 R4\d[a-z]B N$
+In this challenge we only have a zip(![RegularZips.zip](RegularZips.zip)) and a txt file that contains : ^ 7 y RU[A-Z]KKx2 R4\d[a-z]B N$
 
 The first step was to extract the zip file to know what is inside it, so we created a list of passwords that match with the regex in the first txt file.
 After extracting the first zip we got another zip with another txt that contains another regex, so we decided to automate the process in order to generate the passwords with the extracted regex, to finally get the flag.
