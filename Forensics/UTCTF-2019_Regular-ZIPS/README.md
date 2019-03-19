@@ -11,7 +11,7 @@ After extracting the first zip we got another zip with another txt that contains
 After several attempts we realized that the first zip contained a total of 1000 zips so we developed a script in python for the process.
 For this we use the exrex library (https://github.com/asciimoo/exrex).
 
-
+```python
 #!/usr/bin/env python3
 
 import exrex
@@ -49,5 +49,5 @@ if __name__ == "__main__":
         dictionary = generate_dict(hint)
         filename = "{}/archive.zip".format(i)
         i += 1
-        
+```        
 Finally at the end we obtained the flag : utflag{bean_pure_omission_production_rally}
