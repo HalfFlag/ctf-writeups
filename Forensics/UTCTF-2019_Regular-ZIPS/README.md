@@ -8,7 +8,7 @@ In this challenge we only have a zip and a txt file that contains : ^ 7 y RU[A-Z
 
 The first step was to extract the zip file to know what is inside it, so we created a list of passwords that match with the regex in teh first txt file.
 After extracting the first zip we got another zip with another txt that contains another regex, so we decided to automate the process in order to generate the passwords with the extracted regex, to finally get the flag.
-After several attempts we realized that the first zip contained a total of **1000** zips so we developed a script in python for the process.
+After several attempts we realized that the first zip contained a total of 1000 zips so we developed a script in python for the process.
 For this we use the exrex library (https://github.com/asciimoo/exrex).
 
 
